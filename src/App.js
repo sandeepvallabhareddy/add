@@ -8,6 +8,7 @@ function App()
 {
   return(
   	<div className="app">
+		  <OrganizationProfile/>
   		<BrowserRouter>
   			<Route exact path="/signup" component={SignUp}/>
 			  <Route exact path="/login" component={Login}/>
